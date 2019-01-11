@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 苹方字体 */
+}
+@font-face {
+    font-family: '苹方字体';
+    src: url('../fonts/苹方字体.ttf');
+    src: local('fontname Regular'),
+           local('fontname'),
+           url('../fonts/苹方字体.ttf') format('woff'),
+           url('../fonts/苹方字体.ttf') format('truetype'),
+           url('../fonts/苹方字体.ttf') format('svg');
+   }  
+header{
+    /* width: 100%; */
+    height: 200px;
+    background-color: yellow;
+    font-family: 苹方字体-PingFang-SC-Bold;
+}
+.myChild{
+
+}
